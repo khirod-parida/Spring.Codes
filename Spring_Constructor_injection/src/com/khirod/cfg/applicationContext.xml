@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+        
+        <bean id="kh" class="com.khirod.comp.KhirodProj">
+        <constructor-arg name="sname" value="khirod"></constructor-arg>
+        <constructor-arg name="sadd" value="bengaluru"></constructor-arg>
+        <constructor-arg name="sjob" value="developer"></constructor-arg>
+        <constructor-arg name="ssal" value="2000.0"></constructor-arg>
+        <constructor-arg name="sno" value="101"></constructor-arg>
+        </bean>
+        </beans>

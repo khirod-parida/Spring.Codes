@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+        
+        
+        <bean id="kh" class="com.khirod.comp.khirodProj">
+        <property name="sname" value="khirod"></property>
+        <property name="sadd" value="bengaluru"></property>
+        <property name="sno" value="102"></property>
+        <property name="sjob" value="developer"></property>
+        <property name="ssal" value="2000.0"></property>
+        </bean>
+        </beans>
